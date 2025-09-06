@@ -1,0 +1,27 @@
+{
+  "name": "tsdown-test",
+  "version": "0.0.0",
+  "description": "tsdown test package",
+  "type": "module",
+  "private": true,
+  "license": "MIT-0",
+  "author": "Tatsunori Uchino <tats.u@live.jp>",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "typecheck": "tsc --noEmit"
+  }
+}

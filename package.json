@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "pnpm -r build",
+    "dev": "pnpm -r dev",
+    "test": "pnpm -r test",
+    "build:test": "pnpm -r build && pnpm -r test",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "tsdown": "^0.14.2",
+    "typescript": "^5.9.2"
+  }
+}

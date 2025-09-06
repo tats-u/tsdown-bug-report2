@@ -1,0 +1,11 @@
+{
+    "type": "module",
+    "scripts": {
+        "test": "vitest"
+    },
+    "devDependencies": {
+        "tsdown-test": "workspace:*",
+        "unplugin-auto-import": "^20.1.0",
+        "vitest": "^3.2.4"
+    }
+}
